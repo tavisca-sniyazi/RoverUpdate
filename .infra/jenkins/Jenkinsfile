@@ -46,8 +46,8 @@ pipeline {
             steps {
                 bat script: '''
                     echo "I am Pubishing DockerImage ="
-		    docker login -u=akshayrai75 -p=Humpy.123 
-                    docker push akshayrai75/a-rover:latest
+		    docker login -u=shirinniyazi -p=wakanda1@
+                    docker push shirinniyazi/first_try:built-docker-through-jenkins
                 ''',
             label: "Publishing Docker Image"
             }
