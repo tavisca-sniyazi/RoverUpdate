@@ -1,7 +1,7 @@
 package com.tavisca.workshops.prathm;
 
 public class RunRover {
-    public static Rover controlRover(Rover rover, String key){
+    public static Rover controlRoveer(Rover rover, String key){
         switch (key){
             case "m": case "M": rover = rover.MoveForward();
                 break;
@@ -28,7 +28,7 @@ public class RunRover {
         //Scanner scan = new Scanner(System.in);
         Rover rover = new Rover(0, 0, 'E');
         System.out.println("Current Position of Rover is: ");
-        controlRover(rover, "d");
+        controlRoveer(rover, "d");
         System.out.println();
         //String key = "";
         /*while (!key.equals("e")){
